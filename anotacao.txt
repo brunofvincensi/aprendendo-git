@@ -1,5 +1,10 @@
-passo a passo para enviar um commit para o repositorio com comandos
+Passo a passo para enviar um commit para o repositorio com comandos
 
 1° Denominar o novo commit usando // git commit -m ''novo nome''  
 
 2° Inserir o novo commit no github// git push
+
+HTML
+
+<input type="text" class="input_text" name="nome" id="name"/>
+
