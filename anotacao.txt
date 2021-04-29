@@ -4,6 +4,9 @@ Passo a passo para enviar um commit para o repositorio com comandos
 
 2° Inserir o novo commit no github// git push
 
+git checkout -b <branch_name> - criar uma nova branch
+git checkout <branch_name> - vai para uma branch especifica 
+
 HTML
 
 <input type="text" class="input_text" name="nome" id="name"/>
