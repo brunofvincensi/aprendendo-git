@@ -13,7 +13,7 @@ git checkout <branch_name> - vai para uma branch especifica
 
 passo a passo para fazer o merge 
 
-1º git checkou main
+1º git checkout main
 2° git pull origin
 3° git merge <merge_name> - nesse exemplo vai ser A100
 4° vai abrir uma mensagem que pode ser fechada
