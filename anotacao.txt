@@ -35,4 +35,6 @@ public class Hello{
 
 No cmd
 compilar arquivo = javac <''.java>
-executar arquivo = java <''>
+executar arquivo = java <''>.
+
+
