@@ -23,3 +23,16 @@ HTML
 
 <input type="text" class="input_text" name="nome" id="name"/>
 
+JAVA
+
+public class Hello{
+
+    public static void main(String[] args){
+        System.out.println("Bruno");
+    }
+}
+
+
+No cmd
+compilar arquivo = javac <''.java>
+executar arquivo = java <''>
