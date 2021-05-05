@@ -2,12 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Formulario simples</title>
-		<script>src="validacao.js"</script>
+		<title>Formulário simples</title>
+		<script>alert('Ola mundo')</script>
+		<link rel="stylesheet" href="estilo.css">
 	</head>
 <body>
-			<h1>Formulario de Contato:</h1>
+			<h1>Formulário de Contato: </h1>
 	    <div class="box">
+			<h1>Formulário de Contato: </h1>
 			<label>
 				<span>Nome Completo</span>
 				<input type="text" class="input_text" name="nome" id="name"/>
@@ -27,6 +29,17 @@
 				<span>Mensagem</span>
 				<textarea class="message" name="feedback" id="feedback"></textarea>
 				<input type="button" class="button" value="Enviar" />
+			</label>
+
+			<label>
+				<span>Please select your age:</span>
+				<input type="radio" id="age1" name="age" value="30">
+				<label for="age1">0 - 30</label><br>
+				<input type="radio" id="age2" name="age" value="60">
+				<label for="age2">31 - 60</label><br>  
+				<input type="radio" id="age3" name="age" value="100">
+				<label for="age3">61 - 100</label><br><br>
+				<input type="submit" value="Submit">
 			</label>
 	    </div>
 </body>
